@@ -1,6 +1,6 @@
 <?php
-$numbers = $_GET['mac'];
-$threshold = $_GET['version'];
+$mac = $_GET['mac'];
+$version = $_GET['version'];
 
 $command = escapeshellcmd("python3 network_config.py $mac $version");
 
